@@ -1,0 +1,40 @@
+:root{
+    --black:#000;
+    --blue:#0000FF;
+    --white:#FFF;
+    --red:#FF0000;
+    --azulclaro: #72bcd4;
+    --aliceblue: #F0F8FF;
+}
+
+.container{
+    
+    width: 860px;
+    background-color: var(--black);
+}
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 1rem;
+    background-color: var(--black);
+    text-align: center;
+    text-decoration:dashed;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+}
+
+article{
+    padding: 0.8rem;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+footer{
+    text-align: center;
+    color: var(--white);
+}
